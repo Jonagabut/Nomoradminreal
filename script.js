@@ -7,7 +7,7 @@ function cekNomor() {
         hasil.innerHTML = "Mohon masukkan nomor telepon.";
     } else {
         // Cek nomor terpercaya
-        if (nomor === "085173138301" || nomor === "" || nomor === "") {
+        if (nomor === "085173138301" || nomor === "085175108301" || nomor === "") {
             hasil.innerHTML = "Nomor " + nomor + " Asli admin.";
         } else {
             hasil.innerHTML = "Nomor " + nomor + " tidak terdaftar sebagai nomor admin.";
